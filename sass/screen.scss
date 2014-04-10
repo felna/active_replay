@@ -4,3 +4,168 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@font-face
+{
+font-family: Helvetica_neue;
+src: url(../fonts/HelveticaNeue.otf);
+}
+@font-face
+{
+font-family: Helvetica_neue_bold;
+src: url(../fonts/HelveticaNeue-Bold.otf);
+}
+
+body {
+	width: 1080px;
+	background: rgb(214,214,214);
+	margin: auto;
+	font-family: Helvetica_neue;
+	font-size: 14px;
+}
+.bold {
+	font-family: Helvetica_neue_bold;
+}
+.wrapper {
+	background-color: white;
+	width: 1080px;
+}
+
+header {
+	background: rgb(51,49,50);
+	width: 100%;
+	height: 79px;
+	line-height: 79px;
+	border-bottom: 4px solid #00AAFB;
+
+}
+	.logo {
+		float: left;
+		padding: 25px 32px 0 0;
+		margin-left: 65px;
+	}
+
+
+header a:link, header a:visited {color:#FFFFFF;}
+header a:hover, header a:active {color:#00AAFB;}
+
+ .nav {
+
+      margin: 0 ;
+      padding: 0;
+      list-style: none;
+      float: left;
+      li {
+      float: left;
+
+
+      a {
+      display: block;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0 18px 0 18px;
+     }
+    }
+}
+
+.on-right {
+	margin-left: 300px;
+}
+nav {
+	margin-left: 33px;
+	float: left;
+	width: 160px;
+	text-align: center;
+	background-color: white;
+	padding: 0 35px 0 35px;
+		.followers_main {
+	width: 100%;
+	height: 44px;
+	border: 1px black solid;
+	padding-top: -5px;
+	margin-bottom: 13px;
+
+			.followers {
+				margin-top: 4px;
+				float: left;
+				width: 79px;
+				height: 38px;
+				border-right: 1px solid #00AAFB;
+			}
+			.following {
+				margin-top: 4px;
+				float: left;
+				width: 79px;
+				height: 38px;
+				border-left: 1px solid #00AAFB;
+			}
+
+		}
+		.follow_button {
+			width: 100%;
+			background-color:#00AAFB;
+			height: 44px;
+			line-height: 44px;
+			color: white;
+			margin: auto;
+			
+		}
+		.followers_main_2
+		{
+		border-top: 1px solid #dcddde;
+		border-bottom: 1px solid #dcddde;
+		margin-top: 22px;
+		padding: 10px 0 15px 0;
+			.videos {
+				margin-top: 4px;
+				float: left;
+				width: 79px;
+				height: 38px;
+			}
+
+			.favorites {
+				margin-top: 4px;
+				float: left;
+				width: 79px;
+				height: 38px;
+			}
+}
+.buy_trace {
+	color: #00AAFB;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+}
+nav h1 {
+	font-family: Helvetica_neue_bold;
+	margin-top: 16px;
+	font-size: 16px;
+}
+nav p {
+	font-size: 12px;
+}
+	.avatar_large {
+		width: 76px;
+		height: 76px;
+		border: 3px solid #00AAFB;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background-image: url("../images/avatar.png");
+		background-size: 76px;
+		margin: auto;
+		margin-top: 26px;
+
+}
+	.avatar_small {
+		width: 42px;
+		height: 42px;
+		border: 2px solid #00AAFB;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background-image: url("../images/avatar.png");
+		background-size: 42px;
+		vertical-align: middle;
+		float: right;
+		margin-top: 17px;
+		margin-left: 10px;
+	}
